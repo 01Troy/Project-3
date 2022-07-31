@@ -4,7 +4,7 @@
 Author: [TROY STEVE](https://github.com/01Troy)
 
 
-![image](./images/House2.jpg)
+![image](./images/tzwells.jpg)
 
 
 
@@ -24,7 +24,7 @@ The data at our disposal comes from Taarifa and the Tanzanian Ministry of Water.
 ### Methods
 
 
-![image](images/heatmap.png)
+![image](images/ConfusionMatrix.png)
 
 
 
