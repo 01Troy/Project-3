@@ -13,13 +13,13 @@ Despite having access to enormous volumes of fresh water, many Tanzanians still 
 
 A combination of measures on the systems and hard infrastructure are needed to improve access to water. In both urban and rural locations, pipes, irrigation systems, and pumps must be built. Thankfully, the government and other well-wishers acted and substantially expanded public resources to the water industry. To supply water to as many homes as feasible, wells and pumps have been constructed.
 
-The Tanzanian Ministry of Water has recruited Plex Data to develop a model to help predict whether water pumps are functioning, functional but in need of repairs, or non-functional. An Exploratory data analysis of the data will also be done to show the relationship between the target and various features.
+The Tanzanian Ministry of Water has recruited this data science consulting organization to develop a model to help predict whether water pumps are functioning, functional but in need of repairs, or non-functional.
 
-The model will help reduce wastage of the Ministry's resources by only dispatching repair teams to malfunctioning or potentially in need of repair pumps. In addition to maximizing accuracy, the team will also want to increase recall to make sure Tanzanians have access to potable water and that few malfunctioning or damaged pumps go unnoticed.
+This model will help reduce wastage of the Ministry's resources by only dispatching repair teams to malfunctioning or potentially in need of repair pumps. In addition to maximizing accuracy, we also want to increase recall to make sure Tanzanians have access to potable water and that few malfunctioning or damaged pumps go unnoticed.
 
 
 ### Data
-The data at our disposal comes from Taarifa and the Tanzanian Ministry of Water. After combining our two data sets, we will have set with 59400 rows and 41 columns. Among them is our target (status_group) that has three categories making this a ternary classification problem by default.
+The data at that will be used comes from Taarifa and the Tanzanian Ministry of Water. After combining the two data sets, we will have set with 59400 rows and 41 columns. Among them is the target (status_group) that has three categories making this a ternary classification problem by default.
 
 ### Methods
 
@@ -36,7 +36,7 @@ We came up with a model that has an accuracy score of 78%. This means that it wi
 VWC manages the most number wells in Tanzania. VWC also has the highest number of non functional pumps.
 
 ### Limitations
-While preparing my data, I removed many columns that had similar information. However, these variables might contain information that is important and would improve our prediction. Also while tuning the models, I used a few hyperparameters because of time and at times those that I used took a long time to load. I believe that if the models would be tuned with all the available hyperparameters, we would achieve even better results.
+While preparing the data, many columns  that had similar information were dropped. However, these variables might contain information that is important and would improve our prediction. Also while tuning the models, a few hyperparameters were used because of time as it took a long time to execute a code with these parameters. If the models would be tuned with all the available hyperparameters, better results are likely to be achieved.
 
 
 
